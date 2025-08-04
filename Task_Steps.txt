@@ -1,4 +1,4 @@
-'┌──(kali㉿kali)-[~]
+┌──(kali㉿kali)-[~]
 └─$ ifconfig                 
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 10.137.128.110  netmask 255.255.255.0  broadcast 10.137.128.255
@@ -51,3 +51,4 @@ All 1000 scanned ports on 10.137.128.110 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
 
 Nmap done: 256 IP addresses (2 hosts up) scanned in 27.27 seconds
+
