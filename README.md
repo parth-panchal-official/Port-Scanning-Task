@@ -67,7 +67,8 @@ This helps understand how network reconnaissance works and why securing open por
 
 Here is the screenshot of my Nmap scan results:
 
-![Scan Screenshot](scan_screenshot.png)
+![Scan Screenshot](<img width="1279" height="799" alt="Screenshot 2025-08-04 203449" src="https://github.com/user-attachments/assets/67f7171e-42e4-48bd-853f-a018ae11766a" />
+)
 
 ### Scan Results File
 
