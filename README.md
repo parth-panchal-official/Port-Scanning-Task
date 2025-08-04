@@ -63,11 +63,17 @@ This helps understand how network reconnaissance works and why securing open por
 
 ## 📊 Results
 
-### Screenshot of Nmap Scan
+# Screenshot of Nmap Scan
 
 Here is the screenshot of my Nmap scan results:
 
-![Scan Screenshot](Screenshot_2025-08-04_203449.png)
+# 📸 Screenshots of Nmap Scan
+
+# Screenshot 1: Finding Network Information
+![First Scan](Screenshot_1.png)
+
+# Screenshot 2: TCP SYN Scan Results
+![Second Scan](Screenshot_2.png)
 
 ### Scan Results File
 
