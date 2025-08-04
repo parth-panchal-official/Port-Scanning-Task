@@ -1,0 +1,53 @@
+'┌──(kali㉿kali)-[~]
+└─$ ifconfig                 
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.137.128.110  netmask 255.255.255.0  broadcast 10.137.128.255
+        inet6 fe80::436c:f28d:866a:dc2c  prefixlen 64  scopeid 0x20<link>
+        inet6 2402:3a80:4658:6b3a:1ea4:f5d3:2b13:e6e3  prefixlen 64  scopeid 0x0<global>
+        ether 00:0c:29:54:2e:b7  txqueuelen 1000  (Ethernet)
+        RX packets 6  bytes 1342 (1.3 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 29  bytes 4799 (4.6 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 8  bytes 480 (480.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8  bytes 480 (480.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+                                                                                                                                                            
+┌──(kali㉿kali)-[~]
+└─$ nmap -sS 10.137.128.0/24
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-08-04 11:01 EDT
+Nmap scan report for 10.137.128.134
+Host is up (0.00031s latency).
+All 1000 scanned ports on 10.137.128.134 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 04:E8:B9:47:0D:8D (Intel Corporate)
+
+Nmap scan report for 10.137.128.110
+Host is up (0.0000050s latency).
+All 1000 scanned ports on 10.137.128.110 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (2 hosts up) scanned in 25.54 seconds
+                                                                                                                                                            
+┌──(kali㉿kali)-[~]
+└─$ nmap -sS 10.137.128.0/24 -oN scan_results.txt
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-08-04 11:03 EDT
+Nmap scan report for 10.137.128.134
+Host is up (0.00030s latency).
+All 1000 scanned ports on 10.137.128.134 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 04:E8:B9:47:0D:8D (Intel Corporate)
+
+Nmap scan report for 10.137.128.110
+Host is up (0.0000070s latency).
+All 1000 scanned ports on 10.137.128.110 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (2 hosts up) scanned in 27.27 seconds
