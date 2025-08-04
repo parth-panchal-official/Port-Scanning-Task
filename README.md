@@ -90,3 +90,7 @@ Here is the screenshot of my Nmap scan results:
   * Network reconnaissance
   * How firewalls protect open ports
   * Why monitoring with tools like Wireshark is valuable
+
+**Note:** Wireshark analysis was not performed because the task marked it as optional. 
+Since no open ports were detected in the Nmap scan, additional packet analysis with Wireshark 
+was not necessary in this case.
