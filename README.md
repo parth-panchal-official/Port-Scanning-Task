@@ -70,10 +70,8 @@ Here is the screenshot of my Nmap scan results:
 # 📸 Screenshots of Nmap Scan
 
 # Screenshot 1: Finding Network Information
-![First Scan](Screenshot_1.png)
 
 # Screenshot 2: TCP SYN Scan Results
-![Second Scan](Screenshot_2.png)
 
 ### Scan Results File
 
